@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+    padding: 60px 0;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: #fd1015;
+    background: rgba(253,16,21,.1);
+    padding: 2px 15px 4px;
+    border-radius: 3px;
+}
+
+
+p {
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card span {
+    margin: 16px 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    max-width: 330px;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 6px;
+    width: 92%;
+    height: 210px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button div {
+    display: flex;
+    align-items: center;
+}
+
+button div svg {
+    padding: 6px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background: #fd1015;
+    border-radius: 50%;
+}
+
+button div span {
+    display: inline;
+    color: #0e0000;
+    padding-bottom: 6px;
+    line-height: 1.4;
+    text-decoration: none;
+}
